@@ -1,0 +1,87 @@
+<ion-content>
+  <ion-text color="primary">
+    <h1 class="ion-margin-start">Hi, Calories Queen</h1>
+  </ion-text>
+  <h5 class="ion-margin-start ion-margin-bottom">you have 15 active clients</h5>
+
+  <ion-slides class="main-slide" pager="false" [options]="slideOpts2">
+    <ion-slide>
+      <ion-avatar>
+        <img src="/assets/images/dummy/user.jpg">
+      </ion-avatar>
+    </ion-slide>
+    <ion-slide>
+      <ion-avatar>
+        <img src="/assets/images/dummy/user.jpg">
+      </ion-avatar>
+    </ion-slide>
+    <ion-slide>
+      <ion-avatar>
+        <img src="/assets/images/dummy/user.jpg">
+      </ion-avatar>
+    </ion-slide>
+    <ion-slide>
+      <ion-avatar>
+        <img src="/assets/images/dummy/user.jpg">
+      </ion-avatar>
+    </ion-slide>
+    <ion-slide>
+      <ion-avatar>
+        <img src="/assets/images/dummy/user.jpg">
+      </ion-avatar>
+    </ion-slide>
+  </ion-slides>
+  <h6 class="ion-margin-start ion-margin-top">Payment Pending</h6>
+  <ion-card class="card-reminder">
+    <ion-card-content class="ion-no-padding">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <ion-item lines="none" >
+              <ion-avatar slot="start">
+                <img src="/assets/images/dummy/user.jpg">
+              </ion-avatar>
+              <ion-text><b>Jon Doe</b><br>3 March</ion-text>
+              <ion-button size="small" color="light" slot="end">Send Reminder</ion-button>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-item lines="none" >
+              <ion-avatar slot="start">
+                <img src="/assets/images/dummy/user.jpg">
+              </ion-avatar>
+              <ion-text><b>Jon Doe</b><br>3 March</ion-text>
+              <ion-button size="small" color="light" slot="end">Send Reminder</ion-button>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <h6 class="ion-margin-start">Recent Activity</h6>
+  <ion-card class="card-activity" no-shadow>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="/assets/images/dummy/user.jpg">
+        </ion-avatar>
+        Henney Logged in for his workout
+      </ion-item>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="/assets/images/dummy/user.jpg">
+        </ion-avatar>
+        Nancy Update ther profile
+      </ion-item>
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="/assets/images/dummy/user.jpg">
+        </ion-avatar>
+        Doe Complete his Target
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,27 @@
+h2{
+    margin-top:40px;
+    margin-bottom:20px;
+    padding-bottom: 0;
+    span{
+        color: var(--ion-color-theme2);
+    }
+}
+.logo{
+    width: 20%;
+    margin:auto;
+    margin-top:50px;
+}
+ion-input{
+    background-color: white;
+    border-radius: 25px;
+    --padding: 20px !important;
+    margin:15px 25px 0px;
+    width: auto;
+}
+
+ion-button.login{
+    --border-radius:25px !important;
+    width: auto;
+    padding: 1px;
+    margin:25px;
+}

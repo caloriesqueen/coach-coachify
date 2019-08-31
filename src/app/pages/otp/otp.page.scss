@@ -1,0 +1,21 @@
+ion-input{
+    background-color: white;
+    border-radius: 0px;
+    --padding: 20px 0px !important;
+    text-align: center;
+    width: auto;
+}
+ion-grid{
+    width:200px;
+    margin: 20px auto;
+}
+
+ion-button.login{
+    --border-radius:25px !important;
+    width: auto;
+    padding: 1px;
+    margin:25px 35px;
+}
+h2{
+    margin-top:100px;
+}
